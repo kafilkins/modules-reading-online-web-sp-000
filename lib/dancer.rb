@@ -4,4 +4,7 @@ require_relative './dance_module.rb'
 class Dancer
   include Dance
 
+  def initialize(name)
+    @name = name
+  end
 end
